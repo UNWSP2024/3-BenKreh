@@ -29,7 +29,7 @@ def calculate_total_purchase():
         except ValueError:
             print("Invalid input, please enter a number or 'done'.")
 
-    return total
+    return total * 1.07
 
 # Mainline
 total_price = calculate_total_purchase()
